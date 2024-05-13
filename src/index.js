@@ -61,7 +61,7 @@ function renderCatByBreed(cat) {
 
   catImage.setAttribute('src', cat.url);
   console.log(catImage);
-  catInfo.append(catImage);
+  catInfo.prepend(catImage);
   return catImage;
 }
 
